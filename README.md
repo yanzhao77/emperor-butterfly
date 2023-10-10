@@ -1,2 +1,18 @@
 # emperor-butterfly
-A relational database implemented in Java, which can be deployed separately or packaged and launched with the project
+
+- ##### 大嘴可能有很多个，但是帝王班蝶只有一个。
+  
+
+202--10-10
+
+先挖个坑，打算开发一个关系型数据库，可以独立部署访问，也可以像SQLite随项目启动。
+
+数据结构采用 B+树或者红黑树，自旋这个骚操作高低要加上。
+
+sql解释器懒的开发了，采用JSqlParser，正好也是java的。
+
+排序算法采用快速排序，数据量超过1千万后采用归并算法，
+
+搜索算法采用蚁群，或者diff
+
+先这样~
